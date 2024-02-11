@@ -8,6 +8,10 @@ return {
     ["<C-u>"] = { "<C-u>zz", desc = "Half page scrolling" },
     ["<C-d>"] = { "<C-d>zz", desc = "Half page scrolling" },
 
+    ["<leader>w"] = { "<nop>", desc = "Wiki" },
+    ["<leader>ww"] = { ':lua require("kiwi").open_wiki_index("wiki")<cr>', desc = "Open wiki index" },
+    ["T"] = { ':lua require("kiwi").todo.toggle()<cr>', desc = "Toggle Markdown Task" },
+
     ["n"] = { "nzzzv", desc = "Search navigation" },
     ["N"] = { "Nzzzv", desc = "Search navigation" },
 
