@@ -1,6 +1,16 @@
 return {
   { "AstroNvim/astrocommunity" },
   { import = "astrocommunity.completion.copilot-lua-cmp" },
+  {
+    "zbirenbaum/copilot.lua",
+    opts = {
+      filetypes = {
+        -- these are disabled by default for some reason
+        yaml = true,
+        markdown = true,
+      },
+    },
+  },
   { import = "astrocommunity.motion.mini-surround" },
   { import = "astrocommunity.motion.harpoon" },
   { import = "astrocommunity.pack.ansible" },
