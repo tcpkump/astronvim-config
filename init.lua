@@ -1,3 +1,3 @@
 return {
-  colorscheme = "onedark",
+  colorscheme = "kanagawa",
 }

@@ -11,7 +11,7 @@ return {
       },
     },
   },
-  { import = "astrocommunity.colorscheme.onedarkpro-nvim" },
+  { import = "astrocommunity.colorscheme.kanagawa-nvim" },
   { import = "astrocommunity.motion.mini-surround" },
   { import = "astrocommunity.motion.harpoon" },
   { import = "astrocommunity.pack.ansible" },
